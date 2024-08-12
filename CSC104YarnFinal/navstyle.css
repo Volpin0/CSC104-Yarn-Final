@@ -1,0 +1,55 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 0px 30px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    padding: 10px 20px;
+    margin: 0px 0px;
+    overflow: hidden;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 25px;
+    display: block;
+}
+
+.navbar a:hover {
+    background-color: hsl(0, 0%, 25%);
+    border-radius: 20px;
+}
+
+.navbar li {
+    flex-grow: 1;
+}
+
+.navbar p {
+    color: rgb(186, 57, 134);
+    text-decoration: none;
+    padding: 0px;
+    display: block;
+    text-align: center;
+    float: left;
+
+}
+
+.logo img {
+    width: 35px;
+    /* Adjust size as needed */
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
+.cart img {
+    width: 35px;
+    /* Adjust size as needed */
+    height: auto;
+    /* Maintain aspect ratio */
+}
